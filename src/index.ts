@@ -1,4 +1,4 @@
-export function YourDate(value: Date | string, country: string, time?: string) {
+export function DateTime(value: Date | string, country: string, time?: string) {
     if (value === null) {
         return null;
     } else {
