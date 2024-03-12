@@ -1,0 +1,52 @@
+{
+  "name": "date-time-helper",
+  "version": "1.0.0",
+  "description": "A utility library for formatting dates and times in various formats.",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "prepare": "npm run build",
+    "start": "npm run build "
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vishalkatsa/date-time-helper.git"
+  },
+  "keywords": [
+    "date-time-helper",
+    "date",
+    "time",
+    "datetime",
+    "formatting",
+    "utilities",
+    "helper",
+    "date-format",
+    "time-format",
+    "datetime-format",
+    "date-helper",
+    "time-helper",
+    "datetime-helper",
+    "date-string",
+    "time-string",
+    "datetime-string",
+    "date-converter",
+    "time-converter",
+    "datetime-converter"
+  ],
+  "author": "xarmy",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/vishalkatsa/date-time-helper/issues"
+  },
+  "homepage": "https://github.com/vishalkatsa/date-time-helper#readme",
+  "devDependencies": {
+    "typescript": "^5.4.2"
+  },
+  "files": [
+    "lig/**/*"
+  ],
+  "dependencies": {
+    "ts-node": "^10.9.2"
+  }
+}
