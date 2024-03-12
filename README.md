@@ -7,4 +7,4 @@ Date-Time Helper is a utility library for formatting dates and times in various 
 You can install Date-Time Helper via npm:
 
 ```bash
-npm install date-time-helper
+npm install date-time-helper-x
