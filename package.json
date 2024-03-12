@@ -1,5 +1,5 @@
 {
-  "name": "date-time-helper",
+  "name": "date-time-helper-x",
   "version": "1.0.0",
   "description": "A utility library for formatting dates and times in various formats.",
   "main": "lib/index.js",
