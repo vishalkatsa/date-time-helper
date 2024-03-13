@@ -9,11 +9,13 @@ export function DateTime(value: Date | string, country: string, time?: string) {
             newDate = value;
         }
 
+        const monthShortNames = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
+
         if (country === "DDMMYYYY") {
             const day = newDate.getDate();
-            const month = newDate.getMonth() + 1;
+            const month = monthShortNames[newDate.getMonth()];
             const year = newDate.getFullYear();
-            let fullDate = `${day}/${month}/${year}`;
+            let fullDate = `${day} ${month} ${year}`;
             if (time) {
                 const hours = newDate.getHours();
                 const minutes = newDate.getMinutes();
@@ -30,9 +32,9 @@ export function DateTime(value: Date | string, country: string, time?: string) {
             return fullDate;
         } else if (country === "YYYYMMDD") {
             const day = newDate.getDate();
-            const month = newDate.getMonth() + 1;
+            const month = monthShortNames[newDate.getMonth()];
             const year = newDate.getFullYear();
-            let fullDate = `${year}/${month}/${day}`;
+            let fullDate = `${year} ${month} ${day}`;
             if (time) {
                 const hours = newDate.getHours();
                 const minutes = newDate.getMinutes();
@@ -42,9 +44,9 @@ export function DateTime(value: Date | string, country: string, time?: string) {
             return fullDate;
         } else if (country === "MMDDYYYY") {
             const day = newDate.getDate();
-            const month = newDate.getMonth() + 1;
+            const month = monthShortNames[newDate.getMonth()];
             const year = newDate.getFullYear();
-            let fullDate = `${month}/${day}/${year}`;
+            let fullDate = `${month} ${day} ${year}`;
             if (time) {
                 const hours = newDate.getHours();
                 const minutes = newDate.getMinutes();
