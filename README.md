@@ -4,12 +4,12 @@ Date-Time Helper X is a utility library for formatting dates and times in variou
 
 It provides functions to easily convert and format dates and times according to different requirements.
 
-Date-Time Helper X ऐसा library है जो आपको के Dates को दुनिया में use होने 3 Formmat में Convert करता है [ DDMMYYYY  ,  MMDDYYYY,  YYYYMMDD ] और Time को 2 format में Convert करता है [ 12, 24 ]
+
 
 ## Installation
 You can install Date-Time Helper X via npm:
 
-install करनें के लिए command:
+
 
 ```bash
 npm install date-time-helper-x
